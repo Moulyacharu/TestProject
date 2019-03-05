@@ -2,7 +2,7 @@ package com.feb12.packag;
 
 public class BubbleSort {
 	public static void main(String[] args) {
-		int arr[] = {9,5,8,2,3,1,4,7,6,10};
+		int arr[] = {9,5,8,2,3,1,4,7,6,10,11};
 		
 		for(int i=0;i<arr.length;i++)
 		{
