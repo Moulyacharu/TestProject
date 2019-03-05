@@ -3,7 +3,7 @@ package com.feb24;
 public class SelectionSort {
 	public static void main(String[] args)
 	{
-		int[] arr = {4,8,1,9,2};
+		int[] arr = {4,8,1,9,2,3,89};
 		int low = 0;
 		int high=12;
 		
