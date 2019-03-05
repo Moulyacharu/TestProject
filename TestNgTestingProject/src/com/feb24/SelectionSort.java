@@ -5,6 +5,7 @@ public class SelectionSort {
 	{
 		int[] arr = {4,8,1,9,2};
 		int low = 0;
+		int high=12;
 		
 		for(int i=0;i<arr.length;i++)
 		{
