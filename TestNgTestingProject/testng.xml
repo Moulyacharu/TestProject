@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <parameter name="num1" value="6"></parameter>
+<parameter name="num2" value="2"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+
+      <class name="com.testng3.AddNumbers"/>
+      <class name="com.testng3.SubNumbers"/>
+      <class name="com.testng3.MultipleNumbers"/>
+      <class name="com.testng3.DivisionNumbers"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.package1.suit1.Class2"/>
+      <class name="com.customexceptio.TestNgTest1"/>
+      <class name="com.testng3.SubNumbers"/>
+      <class name="com.package1.suit1.Class1"/>
+      <class name="com.package2.suit2.Class3"/>
+      <class name="com.testng3.AddNumbers"/>
+      <class name="com.testng3.MultipleNumbers"/>
+      <class name="com.testng3.DivisionNumbers"/>
+      <class name="com.testng.TestNgExample"/>
+      <class name="com.customexceptio.MainMethod"/>
+      <class name="TestNGSelenium.DifferentClassExample"/>
+      <class name="com.testng.TestNGExample2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
